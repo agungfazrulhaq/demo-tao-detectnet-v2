@@ -1,0 +1,30 @@
+{"date": "4/24/2024", "time": "8:48:55", "status": "STARTED", "verbosity": "INFO", "message": "Starting Object Detection Dataset Convert."}
+{"date": "4/24/2024", "time": "8:48:55", "status": "STARTED", "verbosity": "INFO", "message": "Instantiating a kitti converter"}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Generating partitions"}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Num images in\nTrain: 6434\tVal: 1047", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Validation data in partition 0. Hence, while choosing the validationset during training choose validation_fold 0.", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 0, shard 0", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 0, shard 1", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 0, shard 2", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 0, shard 3", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 0, shard 4", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 0, shard 5", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 0, shard 6", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 0, shard 7", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 0, shard 8", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 0, shard 9", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 1, shard 0", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:55", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 1, shard 1", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:56", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 1, shard 2", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:56", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 1, shard 3", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:56", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 1, shard 4", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:56", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 1, shard 5", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:57", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 1, shard 6", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:57", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 1, shard 7", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:57", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 1, shard 8", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:57", "status": "RUNNING", "verbosity": "INFO", "message": "Writing partition 1, shard 9", "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:58", "status": "RUNNING", "verbosity": "INFO", "message": "Cumulative object statistics", "categorical": {"num_objects": {"car": 28742, "dontcare": 11295, "misc": 973, "van": 2914, "pedestrian": 4487, "cyclist": 1627, "tram": 511, "truck": 1094, "person_sitting": 222}}, "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:58", "status": "RUNNING", "verbosity": "INFO", "message": "Class map. \nLabel in GT: Label in tfrecords file \nb'Car': b'car'\nb'DontCare': b'dontcare'\nb'Misc': b'misc'\nb'Van': b'van'\nb'Pedestrian': b'pedestrian'\nb'Cyclist': b'cyclist'\nb'Tram': b'tram'\nb'Truck': b'truck'\nb'Person_sitting': b'person_sitting'", "categorical": {"num_objects": {"car": 28742, "dontcare": 11295, "misc": 973, "van": 2914, "pedestrian": 4487, "cyclist": 1627, "tram": 511, "truck": 1094, "person_sitting": 222}}, "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:58", "status": "RUNNING", "verbosity": "INFO", "message": "For the dataset_config in the experiment_spec, please use labels in the tfrecords file, while writing the classmap.\n", "categorical": {"num_objects": {"car": 28742, "dontcare": 11295, "misc": 973, "van": 2914, "pedestrian": 4487, "cyclist": 1627, "tram": 511, "truck": 1094, "person_sitting": 222}}, "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:58", "status": "SUCCESS", "verbosity": "INFO", "message": "TFRecords generation complete.", "categorical": {"num_objects": {"car": 28742, "dontcare": 11295, "misc": 973, "van": 2914, "pedestrian": 4487, "cyclist": 1627, "tram": 511, "truck": 1094, "person_sitting": 222}}, "kpi": {"num_images": 7481}}
+{"date": "4/24/2024", "time": "8:48:58", "status": "SUCCESS", "verbosity": "INFO", "message": "Dataset convert finished successfully.", "categorical": {"num_objects": {"car": 28742, "dontcare": 11295, "misc": 973, "van": 2914, "pedestrian": 4487, "cyclist": 1627, "tram": 511, "truck": 1094, "person_sitting": 222}}, "kpi": {"num_images": 7481}}
